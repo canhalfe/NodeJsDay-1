@@ -23,5 +23,5 @@ app.get("/Product/:id", (req,res) => {
     // res.send(`${productid} numaralı grubun bilgileri;` + productid);
     res.send(bands[productid]);
 });
-
+//deneme
 app.listen(3001);
